@@ -14,6 +14,7 @@
 		84662A721B6F9BAD0060F6AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84662A711B6F9BAD0060F6AD /* Images.xcassets */; };
 		84662A751B6F9BAD0060F6AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84662A731B6F9BAD0060F6AD /* LaunchScreen.xib */; };
 		84662A811B6F9BAE0060F6AD /* _4__DrawingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84662A801B6F9BAE0060F6AD /* _4__DrawingsTests.m */; };
+		84662A8F1B6F9D5C0060F6AD /* NVViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84662A8E1B6F9D5C0060F6AD /* NVViewTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		84662A7A1B6F9BAE0060F6AD /* 24. DrawingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "24. DrawingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84662A7F1B6F9BAE0060F6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84662A801B6F9BAE0060F6AD /* _4__DrawingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4__DrawingsTests.m; sourceTree = "<group>"; };
+		84662A8D1B6F9D5C0060F6AD /* NVViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVViewTest.h; sourceTree = "<group>"; };
+		84662A8E1B6F9D5C0060F6AD /* NVViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVViewTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				84662A691B6F9BAD0060F6AD /* AppDelegate.m */,
 				84662A6B1B6F9BAD0060F6AD /* ViewController.h */,
 				84662A6C1B6F9BAD0060F6AD /* ViewController.m */,
+				84662A8D1B6F9D5C0060F6AD /* NVViewTest.h */,
+				84662A8E1B6F9D5C0060F6AD /* NVViewTest.m */,
 				84662A6E1B6F9BAD0060F6AD /* Main.storyboard */,
 				84662A711B6F9BAD0060F6AD /* Images.xcassets */,
 				84662A731B6F9BAD0060F6AD /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				84662A6D1B6F9BAD0060F6AD /* ViewController.m in Sources */,
 				84662A6A1B6F9BAD0060F6AD /* AppDelegate.m in Sources */,
+				84662A8F1B6F9D5C0060F6AD /* NVViewTest.m in Sources */,
 				84662A671B6F9BAD0060F6AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

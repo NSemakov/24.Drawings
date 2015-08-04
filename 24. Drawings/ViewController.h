@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class NVViewTest;
 @interface ViewController : UIViewController
-
+@property (weak,nonatomic) IBOutlet NVViewTest* drawingView;
 
 @end
 
